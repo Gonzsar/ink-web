@@ -1,6 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
-
-
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap");
 * {
   box-sizing: border-box;
   margin: 0;
@@ -12,7 +10,7 @@ html {
 }
 
 body {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   font-size: 1.2rem;
   min-height: 100%;
   background: #000000;
@@ -48,119 +46,115 @@ body {
   background-color: rgb(141, 141, 141);
 }
 
-
-
 /* HEADER */
-
-
-ul{
+ul {
   list-style: none;
 }
-li a{
+
+li a {
   color: rgb(255, 255, 255);
-  transition: transform .4s;
+  transition: transform 0.4s;
 }
-li a:hover{
+
+li a:hover {
   color: #9e2525;
 }
-.logo{
+
+.logo {
   padding-bottom: 1rem;
   width: 28%;
   height: 30%;
   cursor: pointer;
-  transition: transform .4s;
+  transition: transform 0.4s;
 }
-.logo:hover{
+
+.logo:hover {
   transform: scale(1.2);
 }
 
-
-
-
 /* FOOTER */
-
-
-.social{
+.social {
   margin: 10px;
 }
 
-.social a{
+.social a {
   color: #070606;
   text-decoration: none;
   font-size: 35px;
   text-align: center;
   width: 50px;
   height: 30px;
-  transition: .4s;
+  transition: 0.4s;
   margin: 12px;
 }
-.social a:hover{
+
+.social a:hover {
   color: rgb(143, 25, 25);
   transform: scale(1.33);
 }
-.fin{
+
+.fin {
   color: rgb(0, 0, 0);
   bottom: 20px;
   left: 520px;
   padding-top: 70px;
 }
 
-
 /* Index */
-
-
-.section__uno-text{
-  width: auto ;
+.section__uno-text {
+  width: auto;
 }
-.section__uno-text h2{
+
+.section__uno-text h2 {
   padding-top: 1rem;
   padding-bottom: 1rem;
   color: white;
   font-size: 40px;
 }
-.section__uno-text p{
+
+.section__uno-text p {
   color: lightblue;
   letter-spacing: 1px;
   line-height: 20px;
   font-size: 18px;
 }
-.div__dos{
-  background-color: rgb(0, 0, 0);;
+
+.div__dos {
+  background-color: rgb(0, 0, 0);
 }
-.sidebar__single p{
+
+.sidebar__single p {
   font-size: 30px;
   color: bisque;
   font-style: italic;
   font-weight: bold;
 }
-.sidebar__single iframe{
+
+.sidebar__single iframe {
   width: 100%;
   margin-top: 1rem;
 }
 
-.sidebar__album p{
+.sidebar__album p {
   font-size: 30px;
   color: bisque;
   font-style: italic;
   font-weight: bold;
 }
-.sidebar__album iframe{
+
+.sidebar__album iframe {
   margin-top: 0.5rem;
 }
 
-
-
-
-
 /* HISTORIA */
-
-.historia__text h2{
+.historia__text h2 {
   font-size: 1.2rem;
   color: bisque;
   font-weight: bold;
   padding: 1rem;
 }
-.historia__text p{
+
+.historia__text p {
   color: whitesmoke;
   letter-spacing: 1px;
   margin-left: 5px;
@@ -168,67 +162,58 @@ li a:hover{
   font-size: 13px;
 }
 
-
-
-
 /* GRUPO */
-
-
-.foto__grupo img{
+.foto__grupo img {
   margin-top: 0.7rem;
 }
-.texto__grupo h3{
+
+.texto__grupo h3 {
   color: bisque;
   font-size: 2rem;
   margin-top: 10px;
 }
-.texto__grupo ul li{
+
+.texto__grupo ul li {
   color: whitesmoke;
   margin-top: 5px;
   letter-spacing: 1px;
 }
-.timeline{
+
+.timeline {
   padding-top: 10px;
 }
 
-
-
-
 /* DISCOGRAFIA */
-
-.albumes{
+.albumes {
   color: whitesmoke;
 }
-.texto__disco h3{
+
+.texto__disco h3 {
   color: bisque;
   font-size: 2rem;
   margin-top: 10px;
 }
-table{
+
+table {
   border-collapse: collapse;
 }
-th{
+
+th {
   background-color: rgb(222, 113, 113);
   border: 1px solid black;
   padding: 5px 5px;
   color: #000000;
 }
-td{
+
+td {
   background-color: rgb(255, 255, 255);
   border: 1px solid rgb(46, 43, 43);
   padding: 3px 3px;
   color: #000000;
 }
 
-
-
-
-
-
 /* CONTACTO */
-
-
-.form{
+.form {
   background-color: rgb(120, 122, 124);
   display: flex;
   flex-direction: column;
@@ -239,221 +224,193 @@ td{
   padding: 20px;
   max-width: 280px;
 }
-.form__section{
+
+.form__section {
   display: flex;
   flex-direction: column;
   padding: 5px;
   width: 100%;
 }
-.form__section-boton{
+
+.form__section-boton {
   width: 100%;
 }
-.checkbox{
+
+.checkbox {
   width: auto;
   height: auto;
 }
-.ingresar,input{
+
+.ingresar, input {
   border: solid 1px #15151e;
   border-radius: 10px;
   height: 34px;
   width: 100%;
   padding: 2px;
 }
-.button{
+
+.button {
   width: 200px;
   color: black;
   font-weight: bold;
   cursor: pointer;
-  transition: all .4s ease;
+  transition: all 0.4s ease;
   outline: none;
   background: #b8b2b0;
 }
-.button:hover{
+
+.button:hover {
   background: rgb(221, 218, 214);
 }
 
-
-
-
 /**/
-
-
-
-.flex-center{
+.flex-center {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.grid{
+
+.grid {
   display: grid;
 }
-textarea{
+
+textarea {
   resize: none;
 }
 
-
-
-
-
-
-@media (min-width: 200px){
+@media (min-width: 200px) {
   .grid__container {
     display: grid;
     gap: 10px;
-    grid-template:
-      "header"  auto
-      "main"  auto
-      "navbar"  auto
-      "sidebar" auto
-      "footer"  auto;
+    grid-template: "header" auto "main" auto "navbar" auto "sidebar" auto "footer" auto;
   }
-  li a{
+  li a {
     font-size: 1rem;
     font-weight: bold;
     text-decoration: none;
   }
-  .foto__grupo img{
+  .foto__grupo img {
     margin-top: -50px;
   }
-  .eps{
+  .eps {
     margin-left: 0.5rem;
   }
-  .timeline{
+  .timeline {
     padding-top: 50px;
   }
 }
-
-
 @media (min-width: 600px) {
   .grid__container {
-    grid-template:
-      "header  header" auto
-      "main  main" auto
-      "navbar sidebar"   auto
-      "footer  footer" auto /
-      auto    auto;
+    grid-template: "header  header" auto "main  main" auto "navbar sidebar" auto "footer  footer" auto/auto auto;
   }
-  .div__dos img{
+  .div__dos img {
     width: 100%;
   }
-  .foto__grupo img{
+  .foto__grupo img {
     margin-top: 7px;
   }
-  ul{
+  ul {
     width: 80%;
     margin-left: 5rem;
   }
-  ul li a{
+  ul li a {
     font-size: 20px;
   }
-  .texto__disco h3{
+  .texto__disco h3 {
     margin-left: 4rem;
     padding-left: 20px;
   }
-  .tablas{
+  .tablas {
     margin-left: 2.5rem;
   }
-  .albumes{
+  .albumes {
     margin-left: 1rem;
   }
-  .eps{
+  .eps {
     width: 100%;
     margin-left: 1.3rem;
   }
-  .singles{
+  .singles {
     width: 100%;
     margin-left: 1.3rem;
   }
-  .contact__site{
+  .contact__site {
     width: 210%;
   }
 }
-
-
 @media (min-width: 1200px) {
   .grid__container {
-    grid-template:
-      "header  header header"  auto
-      "main  main main" auto
-      "navbar sidebar" auto
-      "footer  footer footer" 200px /
-      200px    auto   200px;
+    grid-template: "header  header header" auto "main  main main" auto "navbar sidebar" auto "footer  footer footer" 200px/200px auto 200px;
   }
-  .div__dos{
+  .div__dos {
     display: flex;
   }
-  .div__dos img{
+  .div__dos img {
     width: 60%;
   }
-  ul{
+  ul {
     margin-left: 7rem;
   }
-  ul li a{
+  ul li a {
     font-size: 2rem;
   }
-  .foto__grupo img{
+  .foto__grupo img {
     margin-top: 10px;
   }
-  td:hover{
+  td:hover {
     background: rgb(197, 191, 191);
   }
-  .tablas{
+  .tablas {
     margin-left: 7.8rem;
   }
-  .albumes{
+  .albumes {
     width: 100%;
   }
-  .eps{
-    width: 100%;
-    margin-left: 3.8rem;
-  }
-  .singles{
+  .eps {
     width: 100%;
     margin-left: 3.8rem;
   }
-  .title{
+  .singles {
+    width: 100%;
+    margin-left: 3.8rem;
+  }
+  .title {
     margin-left: 6rem;
   }
-  .contact__site{
+  .contact__site {
     width: 220%;
     margin: auto;
   }
 }
-
 @media (min-width: 1200px) {
   .grid__container {
-    grid-template:
-      "header  header header"  auto
-      "main  main main" auto
-      "navbar sidebar" auto
-      "footer  footer footer" 200px /
-      200px    auto   200px;
+    grid-template: "header  header header" auto "main  main main" auto "navbar sidebar" auto "footer  footer footer" 200px/200px auto 200px;
   }
-  .div__dos{
+  .div__dos {
     display: flex;
   }
-  ul{
+  ul {
     margin-left: 9rem;
   }
-  .foto__grupo img{
+  .foto__grupo img {
     width: 80%;
   }
-  .texto__disco h3{
+  .texto__disco h3 {
     padding-left: 100px;
   }
-  td:hover{
+  td:hover {
     background: rgb(197, 191, 191);
   }
-  .tablas{
+  .tablas {
     margin-left: 15rem;
   }
-  .eps{
+  .eps {
     width: 100%;
   }
-  .singles{
+  .singles {
     width: 100%;
   }
-  .title{
+  .title {
     margin-left: 0rem;
   }
-}
+}/*# sourceMappingURL=estilos.css.map */
