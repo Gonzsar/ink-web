@@ -1,0 +1,43 @@
+.section__uno-text{
+    width: auto ;
+
+    h2{
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        color: white;
+        font-size: 40px;
+      }
+      p{
+        color: lightblue;
+        letter-spacing: 1px;
+        line-height: 20px;
+        font-size: 18px;
+      }
+  }
+
+.sidebar__single{
+
+    p{
+        font-size: 30px;
+        color: $color;
+        font-style: italic;
+        font-weight: bold;
+      }
+      iframe{
+        width: 100%;
+        margin-top: 1rem;
+      }
+}
+
+.sidebar__album{
+
+    p{
+        font-size: 30px;
+        color: $color;
+        font-style: italic;
+        font-weight: bold;
+      }
+      iframe{
+        margin-top: 0.5rem;
+      }
+}
