@@ -129,7 +129,7 @@ td{
   align-items: flex-start;
 }
 .button{
-  width: 233px;
+  @include size-btn(40px, 233px);
   color: black;
   border-color: rgb(58, 55, 55);
   font-weight: bold;

@@ -1,3 +1,10 @@
+@mixin size-btn($h, $w) {
+    height: $h;
+    width: $w;
+}
+
+
+
 .form__{
     background-color: rgb(120, 122, 124);
     border: 2px solid rgb(180, 180, 180);

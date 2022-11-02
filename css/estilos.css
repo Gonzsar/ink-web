@@ -227,6 +227,7 @@ td {
 }
 
 .button {
+  height: 40px;
   width: 233px;
   color: black;
   border-color: rgb(58, 55, 55);
