@@ -45,7 +45,7 @@ li a:hover {
 .section__uno-text {
   width: auto;
 }
-.section__uno-text h2 {
+.section__uno-text h1 {
   padding-top: 1rem;
   padding-bottom: 1rem;
   color: white;
@@ -104,6 +104,16 @@ li a:hover {
   letter-spacing: 1px;
 }
 
+.form__ {
+  background-color: rgb(120, 122, 124);
+  border: 2px solid rgb(180, 180, 180);
+  border-radius: 13px;
+  padding: 1.5rem;
+}
+.form__ h2 {
+  font-weight: bold;
+}
+
 .grid__container > * {
   box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.75);
   border-radius: 4px;
@@ -137,6 +147,14 @@ li a:hover {
 /* HEADER */
 ul {
   list-style: none;
+}
+
+.nav-link {
+  transition: transform 0.4s;
+}
+
+.nav-link:hover {
+  transform: scale(1.2);
 }
 
 .logo {
@@ -203,45 +221,15 @@ td {
 }
 
 /* CONTACTO */
-.form {
-  background-color: rgb(120, 122, 124);
+.form-group label {
   display: flex;
-  flex-direction: column;
   align-items: flex-start;
-  border: 3px solid #000;
-  border-radius: 12px;
-  margin: auto;
-  padding: 20px;
-  max-width: 280px;
-}
-
-.form__section {
-  display: flex;
-  flex-direction: column;
-  padding: 5px;
-  width: 100%;
-}
-
-.form__section-boton {
-  width: 100%;
-}
-
-.checkbox {
-  width: auto;
-  height: auto;
-}
-
-.ingresar, input {
-  border: solid 1px #15151e;
-  border-radius: 10px;
-  height: 34px;
-  width: 100%;
-  padding: 2px;
 }
 
 .button {
-  width: 200px;
+  width: 233px;
   color: black;
+  border-color: rgb(58, 55, 55);
   font-weight: bold;
   cursor: pointer;
   transition: all 0.4s ease;
@@ -311,26 +299,38 @@ textarea {
     padding-left: 20px;
   }
   .tablas {
-    margin-left: 2.5rem;
+    margin-left: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .albumes {
     margin-left: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .eps {
     width: 100%;
     margin-left: 1.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .singles {
     width: 100%;
     margin-left: 1.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
-  .contact__site {
-    width: 210%;
+  .container {
+    margin-left: 3%;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1000px) {
   .grid__container {
-    grid-template: "header  header header" auto "main  main main" auto "navbar sidebar" auto "footer  footer footer" 200px/200px auto 200px;
+    grid-template: "header  header header" auto "main  main main" auto "navbar sidebar" auto "footer  footer footer" auto/auto auto auto;
   }
   .div__dos {
     display: flex;
@@ -354,7 +354,7 @@ textarea {
     margin-left: 7.8rem;
   }
   .albumes {
-    width: 100%;
+    width: 86%;
   }
   .eps {
     width: 100%;
@@ -367,14 +367,13 @@ textarea {
   .title {
     margin-left: 6rem;
   }
-  .contact__site {
-    width: 220%;
-    margin: auto;
+  .container {
+    margin-left: 8%;
   }
 }
 @media (min-width: 1200px) {
   .grid__container {
-    grid-template: "header  header header" auto "main  main main" auto "navbar sidebar" auto "footer  footer footer" 200px/200px auto 200px;
+    grid-template: "header  header header" auto "main  main main" auto "navbar sidebar" auto "footer  footer footer" 200px/auto auto auto;
   }
   .div__dos {
     display: flex;
@@ -393,6 +392,9 @@ textarea {
   }
   .tablas {
     margin-left: 15rem;
+  }
+  .albumes {
+    width: 90%;
   }
   .eps {
     width: 100%;

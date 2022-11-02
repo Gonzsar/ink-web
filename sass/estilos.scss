@@ -6,6 +6,7 @@
 @import "inicio";
 @import "historia";
 @import "grupo";
+@import "contacto";
 
 
 .grid__container > * {
@@ -45,6 +46,12 @@
 
 ul{
   list-style: none;
+}
+.nav-link{
+  transition: transform .4s;
+}
+.nav-link:hover{
+  transform: scale(1.2);
 }
 .logo{
   padding-bottom: 1rem;
@@ -117,30 +124,14 @@ td{
 
 /* CONTACTO */
 
-
-.form{
-  background-color: rgb(120, 122, 124);
+.form-group label{
   display: flex;
-  border: 3px solid #000;
-  border-radius: 12px;
-  margin: auto;
-  padding: 20px;
-  max-width: 280px;
-}
-.checkbox{
-  width: auto;
-  height: auto;
-}
-.ingresar,input{
-  border: solid 1px #15151e;
-  border-radius: 10px;
-  height: 34px;
-  width: 100%;
-  padding: 2px;
+  align-items: flex-start;
 }
 .button{
-  width: 200px;
+  width: 233px;
   color: black;
+  border-color: rgb(58, 55, 55);
   font-weight: bold;
   cursor: pointer;
   transition: all .4s ease;
@@ -225,33 +216,45 @@ textarea{
     padding-left: 20px;
   }
   .tablas{
-    margin-left: 2.5rem;
+    margin-left: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .albumes{
     margin-left: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .eps{
     width: 100%;
     margin-left: 1.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .singles{
     width: 100%;
     margin-left: 1.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .container{
-    width: 300%;
+    margin-left: 3%;
   }
 }
 
 
-@media (min-width: 1200px) {
+@media (min-width: 1000px) {
   .grid__container {
     grid-template:
       "header  header header"  auto
       "main  main main" auto
       "navbar sidebar" auto
-      "footer  footer footer" 200px /
-      200px    auto   200px;
+      "footer  footer footer" auto /
+      auto    auto    auto;
   }
   .div__dos{
     display: flex;
@@ -288,9 +291,8 @@ textarea{
   .title{
     margin-left: 6rem;
   }
-  .contact__site{
-    width: 220%;
-    margin: auto;
+  .container{
+    margin-left: 8%;
   }
 }
 
@@ -301,7 +303,7 @@ textarea{
       "main  main main" auto
       "navbar sidebar" auto
       "footer  footer footer" 200px /
-      200px    auto   200px;
+      auto    auto   auto;
   }
   .div__dos{
     display: flex;
@@ -321,6 +323,9 @@ textarea{
   .tablas{
     margin-left: 15rem;
   }
+  .albumes{
+    width: 90%;
+  }
   .eps{
     width: 100%;
   }
@@ -330,4 +335,5 @@ textarea{
   .title{
     margin-left: 0rem;
   }
+  
 }
