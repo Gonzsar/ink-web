@@ -121,22 +121,11 @@ td{
 .form{
   background-color: rgb(120, 122, 124);
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
   border: 3px solid #000;
   border-radius: 12px;
   margin: auto;
   padding: 20px;
   max-width: 280px;
-}
-.form__section{
-  display: flex;
-  flex-direction: column;
-  padding: 5px;
-  width: 100%;
-}
-.form__section-boton{
-  width: 100%;
 }
 .checkbox{
   width: auto;
@@ -249,8 +238,8 @@ textarea{
     width: 100%;
     margin-left: 1.3rem;
   }
-  .contact__site{
-    width: 210%;
+  .container{
+    width: 300%;
   }
 }
 
@@ -286,7 +275,7 @@ textarea{
     margin-left: 7.8rem;
   }
   .albumes{
-    width: 100%;
+    width: 86%;
   }
   .eps{
     width: 100%;

@@ -48,34 +48,30 @@
   </header>
 
   <main>
-    <section class="contact__site">
+    <div class="container">
       <form class="form">
-        <h1>Contáctenos!</h1>
-        <div class="form__section">
-          <input type="text" class="form__control ingresar" id="nombre" placeholder="Nombre">
+        <h2>Contáctenos</h2>
+        <form action="/action_page.php">
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" class="form-control" id="email" placeholder="Poner email" name="email">
+          </div>
+          <div class="form-group">
+            <label for="pwd">Contraseña:</label>
+            <input type="password" class="form-control" id="pwd" placeholder="Poner contraseña" name="pwd">
+          </div>
+          <div class="form-group">
+        <label for="comment">Comentar:</label>
+        <textarea class="form-control" rows="5" id="comment"></textarea>
         </div>
-        <div class="form__section">
-          <input type="text" class="form__control ingresar" id="apellido" placeholder="Apellido">
-        </div>
-        <div class="form__section">
-          <input type="date" name="" id="" placeholder="dd/mm/aaaa">
-        </div>
-        <div class="form__section">
-          <input type="email" class="form__control ingresar" name="" id="email" placeholder="E-Mail">
-        </div>
-        <div>
-          <textarea class="textarea" name="contacto" id="" cols="27" rows="10"></textarea>
-        </div>
-        <div class="form__section">
-          <label for="Terms"><input class="checkbox" type="checkbox" name="" id="">
-            Me gustaría recibir la información más reciente sobre Ice Nine Kills por e-mail, incluyendo nuevas canciones, su nuevo merchandising y más!</label>
-        </div>
-        <div class="form__section-boton">
-          <input class="button" type="submit" value="Enviar">
-          <input class="button" type="reset" value="Borrar">
-        </div>
-      </form>
-    </section>
+          <div class="checkbox">
+            <label><input type="checkbox" name="remember"> Me gustaría recibir la información más reciente sobre Ice Nine Kills, incluyendo nuevas canciones, su nuevo merchandising y más!</label>
+          </div>
+          <button type="submit" class="btn btn-default button">Enviar</button>
+          <button type="reset" class="btn btn-default button">Reset</button>
+        </form>
+      </form>  
+    </div>
   </main>
 
   <footer class="footer">
